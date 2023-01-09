@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"33dd5839f9889b8c","x":-671,"y":422,"width":489,"height":400,"type":"file","file":"Notes/Injection Attacks.md"},
+		{"id":"e691a1c6f4f71ccd","x":-1274,"y":422,"width":492,"height":400,"type":"file","file":"Notes/Input Protections.md"},
+		{"id":"bd2293cae73a7320","x":-1845,"y":422,"width":400,"height":400,"type":"file","file":"Notes/LangSec.md"},
+		{"id":"2e6caa3bfc536296","x":-1552,"y":-186,"width":400,"height":400,"type":"file","file":"Notes/Input validation.md"},
+		{"id":"6bb4abb56243d2ad","x":-626,"y":-139,"width":400,"height":400,"type":"file","file":"Notes/Inputs For Websites.md"},
+		{"id":"7b183f2e02d4ecbf","x":376,"y":-186,"width":400,"height":400,"color":"4","type":"file","file":"Notes/Race Conditions.md"},
+		{"id":"55a23cae0720c09b","x":22,"y":422,"width":400,"height":400,"color":"4","type":"file","file":"Notes/Input problems not to do with parsing.md"},
+		{"id":"2b9cb4f0f2e0d755","x":576,"y":756,"width":400,"height":400,"color":"4","type":"file","file":"Notes/Access Control in Java.md"},
+		{"id":"ab1085ee245e4791","x":-626,"y":1033,"width":400,"height":400,"type":"file","file":"Notes/Conclusions Secure input handling.md"}
+	],
+	"edges":[
+		{"id":"5328860b0f86e97c","fromNode":"bd2293cae73a7320","fromSide":"top","toNode":"2e6caa3bfc536296","toSide":"bottom"},
+		{"id":"0bcc77ed6b327c2c","fromNode":"33dd5839f9889b8c","fromSide":"top","toNode":"6bb4abb56243d2ad","toSide":"bottom"},
+		{"id":"cd4868adcc55cba5","fromNode":"55a23cae0720c09b","fromSide":"right","toNode":"7b183f2e02d4ecbf","toSide":"bottom"},
+		{"id":"d7de453c081d466b","fromNode":"55a23cae0720c09b","fromSide":"right","toNode":"2b9cb4f0f2e0d755","toSide":"top"},
+		{"id":"2c080e32db11249d","fromNode":"2e6caa3bfc536296","fromSide":"right","toNode":"e691a1c6f4f71ccd","toSide":"top"},
+		{"id":"a6f1c7ae2d9ffde8","fromNode":"e691a1c6f4f71ccd","fromSide":"right","toNode":"33dd5839f9889b8c","toSide":"left"},
+		{"id":"ba5faa50c62befd2","fromNode":"e691a1c6f4f71ccd","fromSide":"bottom","toNode":"ab1085ee245e4791","toSide":"top"},
+		{"id":"5a8b98f110d4f2bd","fromNode":"55a23cae0720c09b","fromSide":"bottom","toNode":"ab1085ee245e4791","toSide":"top"}
+	]
+}

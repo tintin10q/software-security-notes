@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"77cc998a16e8b535","x":-520,"y":-356,"width":400,"height":401,"color":"2","type":"file","file":"Notes/Access Control in Java.md"},
+		{"id":"54257dfa062e2d16","x":-31,"y":169,"width":400,"height":400,"color":"2","type":"file","file":"Notes/DAST, SAST.md"},
+		{"id":"341b2e8b361face4","x":-520,"y":316,"width":400,"height":400,"color":"2","type":"file","file":"Notes/Types.md"},
+		{"id":"d7740a0436d7cefa","x":-1088,"y":937,"width":400,"height":400,"type":"file","file":"Notes/Canvas/Memory.canvas"},
+		{"id":"dd7eae55ccd8ee37","x":-31,"y":966,"width":400,"height":400,"color":"5","type":"file","file":"Notes/State Machine learning.md"},
+		{"id":"c58ab0be5430bd04","x":-31,"y":1465,"width":400,"height":400,"color":"5","type":"file","file":"Notes/Fuzzing.md"},
+		{"id":"063b7211677c0371","x":417,"y":-408,"width":400,"height":400,"color":"2","type":"file","file":"Notes/Static Anlaysis & Prefast.md"},
+		{"id":"4d8e2a9929c71535","x":952,"y":-408,"width":400,"height":400,"color":"2","type":"file","file":"Notes/Information Flow.md"},
+		{"id":"c6d3f59b1105d380","x":1221,"y":221,"width":400,"height":400,"color":"2","type":"file","file":"Notes/Typing in java in android.md"},
+		{"id":"0d053908c1067f64","x":686,"y":45,"width":400,"height":400,"color":"2","type":"file","file":"Notes/Tool Prefast.md"},
+		{"id":"e19c65c50365b329","x":-520,"y":937,"width":400,"height":400,"color":"5","type":"file","file":"Notes/Security Testing.md"}
+	],
+	"edges":[
+		{"id":"3f6ee3106418b955","fromNode":"063b7211677c0371","fromSide":"top","toNode":"4d8e2a9929c71535","toSide":"left","label":"Sast"},
+		{"id":"6d2a93158fce325f","fromNode":"54257dfa062e2d16","fromSide":"top","toNode":"77cc998a16e8b535","toSide":"right","label":"Dast Sast"},
+		{"id":"4cb59eb4f557747e","fromNode":"54257dfa062e2d16","fromSide":"right","toNode":"063b7211677c0371","toSide":"left","label":"Sast"},
+		{"id":"d32f0dba7314e0bd","fromNode":"341b2e8b361face4","fromSide":"right","toNode":"54257dfa062e2d16","toSide":"left"},
+		{"id":"f4c66047644178fa","fromNode":"d7740a0436d7cefa","fromSide":"top","toNode":"341b2e8b361face4","toSide":"left"},
+		{"id":"3ec90dbd95936536","fromNode":"341b2e8b361face4","fromSide":"bottom","toNode":"e19c65c50365b329","toSide":"top","label":"Reduce need for"},
+		{"id":"cbad1c8500cb77da","fromNode":"e19c65c50365b329","fromSide":"right","toNode":"dd7eae55ccd8ee37","toSide":"left"},
+		{"id":"870ee6c6a341802b","fromNode":"e19c65c50365b329","fromSide":"bottom","toNode":"c58ab0be5430bd04","toSide":"left"},
+		{"id":"b0e9882c562aaa73","fromNode":"4d8e2a9929c71535","fromSide":"bottom","toNode":"c6d3f59b1105d380","toSide":"top"},
+		{"id":"b6c467343987cc5a","fromNode":"063b7211677c0371","fromSide":"bottom","toNode":"0d053908c1067f64","toSide":"top"}
+	]
+}

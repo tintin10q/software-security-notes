@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"0a83cd4b9c31c6a7","x":-1306,"y":-886,"width":488,"height":580,"type":"file","file":"Notes/Memory Bugs.md"},
+		{"id":"d77ddcb9debf68df","x":-1910,"y":-487,"width":400,"height":400,"type":"file","file":"Notes/Safe Programming Languages.md"},
+		{"id":"b6d495c410401e63","x":-1262,"y":-1472,"width":400,"height":400,"type":"file","file":"Notes/Defenses against memory corruption.md"},
+		{"id":"8275685d97a44871","x":-1923,"y":-1086,"width":413,"height":400,"type":"file","file":"Notes/Fuzzing.md"},
+		{"id":"5c479cc9105329dc","x":-2514,"y":-359,"width":400,"height":400,"type":"file","file":"Notes/Canvas/Types.canvas"},
+		{"id":"133c199b99fe0146","x":-2514,"y":-1195,"width":400,"height":400,"type":"file","file":"Notes/Comportamentalisation.md"},
+		{"id":"ff85da5f3e479b2d","x":-1888,"y":-1616,"width":400,"height":400,"type":"file","file":"Notes/State Machine learning.md"},
+		{"id":"77b34c87a3738a53","x":-659,"y":-1110,"width":400,"height":687,"type":"file","file":"Notes/LangSec.md"}
+	],
+	"edges":[
+		{"id":"6f15dab410d386da","fromNode":"0a83cd4b9c31c6a7","fromSide":"left","toNode":"d77ddcb9debf68df","toSide":"right"},
+		{"id":"9b69f770f5fc6054","fromNode":"d77ddcb9debf68df","fromSide":"left","toNode":"5c479cc9105329dc","toSide":"right"},
+		{"id":"fc6c07057a90d0e8","fromNode":"0a83cd4b9c31c6a7","fromSide":"left","toNode":"8275685d97a44871","toSide":"right"},
+		{"id":"71f2c9f63df49b9c","fromNode":"0a83cd4b9c31c6a7","fromSide":"top","toNode":"b6d495c410401e63","toSide":"bottom"},
+		{"id":"85725004f19860dd","fromNode":"d77ddcb9debf68df","fromSide":"left","toNode":"133c199b99fe0146","toSide":"bottom"},
+		{"id":"1bde7135e0277d3b","fromNode":"8275685d97a44871","fromSide":"top","toNode":"ff85da5f3e479b2d","toSide":"bottom"},
+		{"id":"bf752780f973467d","fromNode":"b6d495c410401e63","fromSide":"right","toNode":"77b34c87a3738a53","toSide":"left"}
+	]
+}

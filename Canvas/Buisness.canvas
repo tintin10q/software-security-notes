@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"c5a7483e79448a1d","x":324,"y":-620,"width":400,"height":400,"type":"file","file":"Notes/Canvas/Input.canvas"},
+		{"id":"d976770c83f38aa4","x":-129,"y":-65,"width":400,"height":400,"type":"file","file":"Notes/Motivation.md"},
+		{"id":"eed6274ee96c082a","x":-193,"y":-1113,"width":400,"height":400,"type":"file","file":"Notes/Canvas/Types.canvas"},
+		{"id":"d4621fccf2ec2b59","x":-675,"y":-620,"width":400,"height":400,"type":"file","file":"Notes/Canvas/Memory.canvas"},
+		{"id":"4c623df8794822e6","x":-129,"y":443,"width":400,"height":400,"type":"file","file":"Notes/Security Lifecycle.md"},
+		{"id":"23a12d2e68f874a2","x":-1171,"y":-620,"width":400,"height":400,"type":"file","file":"Notes/Vulnerability.md"},
+		{"id":"0123be35f01d461b","x":-1171,"y":-65,"width":400,"height":400,"type":"file","file":"Notes/Weakness.md"},
+		{"id":"b06de0eff72d8ce4","x":-675,"y":-65,"width":400,"height":400,"type":"file","file":"Notes/Root causes of security bugs.md"},
+		{"id":"3217c30702bc76ab","x":-675,"y":443,"width":400,"height":400,"type":"file","file":"Notes/Samm.md"},
+		{"id":"5128027686645dd5","x":-1814,"y":-362,"width":279,"height":497,"type":"file","file":"Notes/Fuzzing.md"},
+		{"id":"9afac9d5a2f111f3","x":-129,"y":1001,"width":400,"height":400,"type":"file","file":"Notes/Security Requirements.md"},
+		{"id":"780e037f1070efb7","x":557,"y":1001,"width":400,"height":400,"type":"file","file":"Notes/Threat modeling.md"},
+		{"id":"09b7bc7d68167723","x":-1171,"y":443,"width":400,"height":400,"type":"file","file":"Notes/Security Software & Secure Software.md"}
+	],
+	"edges":[
+		{"id":"c7d14c7ac2766ae4","fromNode":"3217c30702bc76ab","fromSide":"right","toNode":"4c623df8794822e6","toSide":"left"},
+		{"id":"7c087a6612bd4f72","fromNode":"b06de0eff72d8ce4","fromSide":"left","toNode":"0123be35f01d461b","toSide":"right"},
+		{"id":"25fecc0244d1808f","fromNode":"d976770c83f38aa4","fromSide":"top","toNode":"d4621fccf2ec2b59","toSide":"right"},
+		{"id":"1a55c02a1a291fc0","fromNode":"d976770c83f38aa4","fromSide":"top","toNode":"c5a7483e79448a1d","toSide":"left"},
+		{"id":"3fa7d45192743cb5","fromNode":"d4621fccf2ec2b59","fromSide":"top","toNode":"eed6274ee96c082a","toSide":"left","label":"We can have types\ncause of memory safety"},
+		{"id":"0ac975a384d3f2ee","fromNode":"d976770c83f38aa4","fromSide":"left","toNode":"b06de0eff72d8ce4","toSide":"right"},
+		{"id":"59a8d3d52ea33b8a","fromNode":"d976770c83f38aa4","fromSide":"bottom","toNode":"4c623df8794822e6","toSide":"top"},
+		{"id":"f8b64f526632eaf0","fromNode":"c5a7483e79448a1d","fromSide":"top","toNode":"eed6274ee96c082a","toSide":"right","label":"Types to the resque"},
+		{"id":"b073df8b3070753f","fromNode":"0123be35f01d461b","fromSide":"left","toNode":"5128027686645dd5","toSide":"right"},
+		{"id":"7b787838cc8d5e16","fromNode":"5128027686645dd5","fromSide":"top","toNode":"23a12d2e68f874a2","toSide":"left"},
+		{"id":"4e98d8c1e18adb8f","fromNode":"9afac9d5a2f111f3","fromSide":"top","toNode":"4c623df8794822e6","toSide":"bottom"},
+		{"id":"be9c18b8da19d3bc","fromNode":"9afac9d5a2f111f3","fromSide":"right","toNode":"780e037f1070efb7","toSide":"left"}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"824eab5a9b20165b","x":-684,"y":-247,"width":901,"height":461,"type":"file","file":"Notes/Safe Programming Languages.md"},
+		{"id":"1038ee2282e179f1","x":-771,"y":-900,"width":400,"height":400,"type":"file","file":"Notes/Canvas/Types.canvas"},
+		{"id":"807442aea5131b18","x":-2199,"y":-858,"width":400,"height":400,"type":"file","file":"Notes/Canvas/Input.canvas"},
+		{"id":"bbbb5a1f965afa08","x":-2199,"y":-126,"width":400,"height":400,"type":"file","file":"Notes/Canvas/Memory.canvas"},
+		{"id":"587d7d3f3a138c28","x":-904,"y":332,"width":553,"height":769,"type":"file","file":"Notes/LangSec.md"},
+		{"id":"d5f9e78d0447b6db","x":-233,"y":332,"width":710,"height":892,"type":"file","file":"Notes/Java Security Garentees.md"},
+		{"id":"2e10e77507f7a5f4","x":-2199,"y":449,"width":400,"height":400,"type":"file","file":"Notes/Root causes of security bugs.md"},
+		{"id":"2ac3065f8e85e9eb","x":-1514,"y":-1044,"width":517,"height":2033,"type":"file","file":"Notes/Spot the bugs.md"},
+		{"id":"2ffbfdcf37369232","x":-997,"y":-658,"width":50,"height":50,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"09b6f77cf34f1b89","fromNode":"824eab5a9b20165b","fromSide":"top","toNode":"1038ee2282e179f1","toSide":"right"},
+		{"id":"4f33dd9755d10559","fromNode":"2ac3065f8e85e9eb","fromSide":"right","toNode":"824eab5a9b20165b","toSide":"left"},
+		{"id":"2e0ebc39fcc9d5b6","fromNode":"807442aea5131b18","fromSide":"right","toNode":"2ac3065f8e85e9eb","toSide":"left"},
+		{"id":"7896a22d7cc9ed56","fromNode":"807442aea5131b18","fromSide":"bottom","toNode":"bbbb5a1f965afa08","toSide":"top"},
+		{"id":"eeed56b052a15a01","fromNode":"bbbb5a1f965afa08","fromSide":"right","toNode":"2ac3065f8e85e9eb","toSide":"left"},
+		{"id":"ca59bcb1c84d8e79","fromNode":"824eab5a9b20165b","fromSide":"bottom","toNode":"d5f9e78d0447b6db","toSide":"top"},
+		{"id":"3cfb4e5890709df7","fromNode":"824eab5a9b20165b","fromSide":"bottom","toNode":"587d7d3f3a138c28","toSide":"top"},
+		{"id":"b09ca2dbee399caf","fromNode":"2e10e77507f7a5f4","fromSide":"right","toNode":"2ac3065f8e85e9eb","toSide":"left"}
+	]
+}
